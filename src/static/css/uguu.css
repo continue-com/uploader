@@ -56,10 +56,7 @@ body {
 }
 
 .grill-wrapper {
-    background-image: var(--png-bg);
-    @supports (background-image: var(--avif-bg)) {
-        background-image: var(--avif-bg);
-    }
+    /* ponytail: mascot/grill background removed */
     background-attachment: fixed;
     background-position: 85% 100%;
     background-repeat: no-repeat;
