@@ -56,11 +56,16 @@ body {
 }
 
 .grill-wrapper {
-    /* ponytail: mascot/grill background removed */
-    background-attachment: fixed;
-    background-position: 85% 100%;
-    background-repeat: no-repeat;
+    /* ponytail: mascot/grill background removed; center content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
+}
+
+.grill-wrapper > .container {
+    width: 100%;
 }
 
 .container {

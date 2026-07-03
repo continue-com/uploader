@@ -12,7 +12,7 @@
   "max_upload_size": 128,
   "expireTime": 8,
   "expireTimeUnit": "hours",
-  "siteName": "Uguu",
+  "siteName": "Uploader",
   "subTitle": "Temporary file hosting",
   "DOMAIN": "dev.uguu.se",
   "FILE_DOMAIN": "files.dev.uguu.se",
