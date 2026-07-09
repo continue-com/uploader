@@ -9,7 +9,7 @@
   ],
   "DEBUG": false,
   "BENCHMARK_MODE": false,
-  "max_upload_size": 128,
+  "max_upload_size": 500,
   "expireTime": 8,
   "expireTimeUnit": "hours",
   "siteName": "Uploader",
@@ -61,7 +61,6 @@
 	"html",
 	"jar",
 	"msi",
-	"apk",
 	"phtml",
 	"svg"
   ],
@@ -70,7 +69,6 @@
 	"text/html",
 	"application/x-dosexec",
 	"application/java",
-	"application/java-archive",
 	"application/x-executable",
 	"application/x-mach-binary",
 	"image/svg+xml"

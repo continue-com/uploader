@@ -71,7 +71,7 @@ RUN sed -i 's|^;*listen = .*|listen = 127.0.0.1:9000|' /etc/php${PHP_V}/php-fpm.
  && sed -i 's|^;*catch_workers_output = .*|catch_workers_output = yes|' /etc/php${PHP_V}/php-fpm.d/www.conf
 
 # Increase PHP upload limits for development
-RUN printf "upload_max_filesize=128M\npost_max_size=128M\nmemory_limit=256M\nmax_file_uploads=100\n" \
+RUN printf "upload_max_filesize=500M\npost_max_size=500M\nmemory_limit=512M\nmax_file_uploads=100\n" \
     > /etc/php${PHP_V}/conf.d/99-uguu.ini
 
 # Entrypoint to run php-fpm and nginx together
